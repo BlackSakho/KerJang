@@ -37,7 +37,7 @@
 
     <!-- Right -->
     <div class="relative">
-      <img src="{{ asset('images/illustration.png') }}" alt="Illustration éducation" class="w-full">
+      <img src="{{ asset('images/Education-rafiki.png') }}" alt="Illustration éducation" class="w-full">
     </div>
   </section>
 
@@ -59,6 +59,19 @@
       <button class="p-4 bg-blue-600 text-white font-semibold hover:bg-blue-500 w-full md:w-auto">🔍</button>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-gray-700 py-6 mt-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p class="text-sm">
+        © 2025 KërJàng. Tous droits réservés.
+      </p>
+      <p class="text-sm mt-2">
+        <a href="#" class="text-blue-600 hover:underline">Mentions légales</a> |
+        <a href="#" class="text-blue-600 hover:underline">Politique de confidentialité</a>
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
