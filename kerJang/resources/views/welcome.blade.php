@@ -16,8 +16,8 @@
   <header class="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto">
     <h1 class="text-2xl font-bold text-gray-900">KërJàng</h1>
     <nav class="space-x-6">
-        <a href="{{-- {{ route('register') }} --}}" class="text-gray-800 hover:text-blue-600">S’inscrire</a>
-        <a href="{{-- {{ route('login') }} --}}" class="text-gray-800 hover:text-blue-600">Se connecter</a>
+      <a href="{{ route('register') }}" class="text-gray-800 hover:text-blue-600">S’inscrire</a>
+      <a href="{{ route('login') }}" class="text-gray-800 hover:text-blue-600">Se connecter</a>
     </nav>
   </header>
 
